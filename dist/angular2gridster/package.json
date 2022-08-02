@@ -1,0 +1,30 @@
+{
+  "name": "angular2gridster",
+  "peerDependencies": {
+    "@angular/common": "^13.1.1",
+    "@angular/core": "^13.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
+  "module": "fesm2015/angular2gridster.mjs",
+  "es2020": "fesm2020/angular2gridster.mjs",
+  "esm2020": "esm2020/angular2gridster.mjs",
+  "fesm2020": "fesm2020/angular2gridster.mjs",
+  "fesm2015": "fesm2015/angular2gridster.mjs",
+  "typings": "angular2gridster.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./angular2gridster.d.ts",
+      "esm2020": "./esm2020/angular2gridster.mjs",
+      "es2020": "./fesm2020/angular2gridster.mjs",
+      "es2015": "./fesm2015/angular2gridster.mjs",
+      "node": "./fesm2015/angular2gridster.mjs",
+      "default": "./fesm2020/angular2gridster.mjs"
+    }
+  },
+  "sideEffects": false
+}
